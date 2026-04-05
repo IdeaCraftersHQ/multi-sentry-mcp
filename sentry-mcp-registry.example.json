@@ -1,0 +1,34 @@
+{
+  "portfolio": [
+    {
+      "id": "acme-web",
+      "display_name": "Acme Web",
+      "sentry_org_slug": "acme-web",
+      "sentry_project_slug": "acme-web-app",
+      "token_env_var": "SENTRY_TOKEN_ACME_WEB",
+      "ai_search": true,
+      "active": true
+    },
+    {
+      "id": "widgets-inc",
+      "display_name": "Widgets Inc",
+      "sentry_org_slug": "widgets-inc",
+      "sentry_project_slug": "widgets-api",
+      "token_env_var": "SENTRY_TOKEN_WIDGETS_INC",
+      "ai_search": true,
+      "active": true
+    },
+    {
+      "id": "starter-app",
+      "display_name": "Starter App",
+      "sentry_org_slug": "starter-app",
+      "token_env_var": "SENTRY_TOKEN_STARTER_APP",
+      "ai_search": false,
+      "active": true
+    }
+  ],
+  "shared": {
+    "anthropic_key_env_var": "ANTHROPIC_API_KEY",
+    "embedded_agent_provider": "anthropic"
+  }
+}

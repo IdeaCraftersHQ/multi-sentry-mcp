@@ -1,0 +1,29 @@
+{
+  "name": "ideacrafters-sentry-mcp",
+  "version": "1.0.0",
+  "description": "Multi-portfolio Sentry MCP configuration generator with per-company isolation and clean handoff",
+  "type": "module",
+  "bin": {
+    "sentry-mcp-gen": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "generate": "node dist/index.js",
+    "generate:handoff": "node dist/index.js --all-handoffs",
+    "dev": "npx tsx src/index.ts"
+  },
+  "keywords": [
+    "sentry",
+    "mcp",
+    "model-context-protocol",
+    "portfolio",
+    "multi-org",
+    "claude"
+  ],
+  "author": "Ideacrafters",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  }
+}
