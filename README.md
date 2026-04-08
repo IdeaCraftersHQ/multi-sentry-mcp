@@ -178,6 +178,12 @@ The `@sentry/mcp-server` groups tools into skills:
 
 Use the `skills` field in the registry to control which skills are enabled per company.
 
+## Author                                                                                                                                                                                   
+                                                                     
+**Abdelbaki Berkati** — [berkati.xyz](https://berkati.xyz) · [@bakissation](https://github.com/bakissation)                                                                                 
+                                                                     
+[Read the case study →](https://berkati.xyz/case-studies/multi-sentry-mcp/)                                                                                                                 
+                      
 ## License
 
 MIT
